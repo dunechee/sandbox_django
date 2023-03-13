@@ -4,6 +4,10 @@ from django.shortcuts import render
 # Create your views here.
 # use f-strings for easy string formatting https://realpython.com/python-f-strings/ 
 
+def convert():
+	converted_t = (temp-32)*0.5556
+	return converted_t
+
 def story():
 	fake = Faker()
 	mystory = (

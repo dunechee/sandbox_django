@@ -8,11 +8,11 @@ def city_list(request):
 	paginator = Paginator(cities, 50) #show 50 cities per page
 	page_number = request.GET.get('page')
 	page_obj = paginator.get_page(page_number)
-	return render(request, 'cities/city_list.html', {'page_obj': page_obj})
+	return render(request, 'cities/bear_list.html', {'page_obj': page_obj})
 
 def city_by_name(request, city):
 	cities = City.city_by_name(city)
 	paginator = Paginator(cities, 50) #show 50 cities per page
 	page_number = request.GET.get('page')
 	page_obj = paginator.get_page(page_number)
-	return render(request, 'cities/city_list.html', {'page_obj': page_obj})
+	return render(request, 'cities/bear_list.html', {'page_obj': page_obj})

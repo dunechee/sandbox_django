@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../cs511_delta/.idea/cs511_delta.iml" filepath="$PROJECT_DIR$/../cs511_delta/.idea/cs511_delta.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/sandbox_django.iml" filepath="$PROJECT_DIR$/.idea/sandbox_django.iml" />
     </modules>
   </component>
